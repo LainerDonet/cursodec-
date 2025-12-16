@@ -1,0 +1,14 @@
+# 1. Ignorar todo por defecto
+*
+
+# 2. ¡Pero NO ignorar las carpetas! (para poder bajar a subdirectorios)
+!*/
+
+# 3. Lista blanca: Archivos que SÍ queremos guardar (usa el signo !)
+!*.cpp
+!*.c
+!*.h
+!*.hpp
+!Makefile
+!README.md
+!.gitignore
