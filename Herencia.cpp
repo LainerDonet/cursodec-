@@ -1,5 +1,11 @@
 #include <iostream>
 
+/*
+    Los conceptos de herencia en C++ permiten crear nuevas clases basadas en clases existentes.
+    La clase que hereda se llama clase derivada, y la clase de la cual se hereda se llama clase base.
+    La herencia permite reutilizar código y establecer una relación "es un tipo de" entre clases.
+*/
+
 class Animal {
     public:
         bool vivo = true;
